@@ -22,30 +22,30 @@ export default function Portfolio() {
   }, []);
 
   const skills = [
-    { name: 'JavaScript', image: '/assets/javascript.png' },
-    { name: 'React', image: '/assets/React.png' },
-    { name: 'Python', image: '/assets/python.svg.png' },
-    { name: 'Node.js', image: '/assets/nodejs.png' },
-    { name: 'MongoDB', image: '/assets/mongodb.webp' },
-    { name: 'PostgreSQL', image: '/assets/postgresql.svg.png' },
-    { name: 'C', image: '/assets/C.png' },
-    { name: 'Java', image: '/assets/Java.png' },
-    { name: 'CSS', image: '/assets/CSS.png' },
-    { name: 'Git', image: '/assets/git.png' },
-    { name: 'VSCode', image: '/assets/VSCode.png' },
-    { name: 'Terminal', image: '/assets/terminal.png' },
-    { name: 'PHP', image: '/assets/php.svg.png' },
-    { name: 'Processing', image: '/assets/Processing.png' },
-    { name: 'Sass', image: '/assets/Sass.svg' },
-    { name: 'Jupyter', image: '/assets/jupyter.svg.png' },
-    { name: 'TensorFlow', image: '/assets/tensorflow.svg.png' },
-    { name: 'scikit-learn', image: '/assets/scikitlearn.svg.png' },
+    { name: 'JavaScript', image: 'https://raw.githubusercontent.com/Psoro77/My-Portfolio/refs/heads/gh-pages/assets/javascript.png' },
+    { name: 'React', image: 'https://raw.githubusercontent.com/Psoro77/My-Portfolio/refs/heads/gh-pages/assets/React.png' },
+    { name: 'Python', image: 'https://raw.githubusercontent.com/Psoro77/My-Portfolio/refs/heads/gh-pages/assets/python.svg.png' },
+    { name: 'Node.js', image: 'https://raw.githubusercontent.com/Psoro77/My-Portfolio/refs/heads/gh-pages/assets/nodejs.png' },
+    { name: 'MongoDB', image: 'https://raw.githubusercontent.com/Psoro77/My-Portfolio/refs/heads/gh-pages/assets/mongodb.webp' },
+    { name: 'PostgreSQL', image: 'https://raw.githubusercontent.com/Psoro77/My-Portfolio/refs/heads/gh-pages/assets/postgresql.svg.png' },
+    { name: 'C', image: 'https://raw.githubusercontent.com/Psoro77/My-Portfolio/refs/heads/gh-pages/assets/C.png' },
+    { name: 'Java', image: 'https://raw.githubusercontent.com/Psoro77/My-Portfolio/refs/heads/gh-pages/assets/Java.png' },
+    { name: 'CSS', image: 'https://raw.githubusercontent.com/Psoro77/My-Portfolio/refs/heads/gh-pages/assets/CSS.png' },
+    { name: 'Git', image: 'https://raw.githubusercontent.com/Psoro77/My-Portfolio/refs/heads/gh-pages/assets/git.png' },
+    { name: 'VSCode', image: 'https://raw.githubusercontent.com/Psoro77/My-Portfolio/refs/heads/gh-pages/assets/VSCode.png' },
+    { name: 'Terminal', image: 'https://raw.githubusercontent.com/Psoro77/My-Portfolio/refs/heads/gh-pages/assets/terminal.png' },
+    { name: 'PHP', image: 'https://raw.githubusercontent.com/Psoro77/My-Portfolio/refs/heads/gh-pages/assets/php.svg.png' },
+    { name: 'Processing', image: 'https://raw.githubusercontent.com/Psoro77/My-Portfolio/refs/heads/gh-pages/assets/Processing.png' },
+    { name: 'Sass', image: 'https://raw.githubusercontent.com/Psoro77/My-Portfolio/6b3ecf03340e68ae1c103554b9e8beb7c8b5ec95/assets/Sass.svg' },
+    { name: 'Jupyter', image: 'https://raw.githubusercontent.com/Psoro77/My-Portfolio/refs/heads/gh-pages/assets/jupyter.svg.png' },
+    { name: 'TensorFlow', image: 'https://raw.githubusercontent.com/Psoro77/My-Portfolio/refs/heads/gh-pages/assets/tensorflow.svg.png' },
+    { name: 'scikit-learn', image: 'https://raw.githubusercontent.com/Psoro77/My-Portfolio/refs/heads/gh-pages/assets/scikitlearn.svg.png' },
   ];
 
   const projects = [
-    { title: 'TensorTrend', image: '/assets/tensortrend.png', link: 'https://github.com/Psoro77/tensortrend' },
-    { title: 'Flower Shop', image: '/assets/flowershop.png', link: 'https://github.com/Psoro77/Learning-Web-page-Basics/tree/main/projet3' },
-    { title: 'Mobile App', image: '/assets/mobileapp.png', link: 'https://github.com/Psoro77/' },
+    { title: 'TensorTrend', image: 'https://raw.githubusercontent.com/Psoro77/My-Portfolio/refs/heads/gh-pages/assets/tensortrend.png', link: 'https://github.com/Psoro77/tensortrend' },
+    { title: 'Flower Shop', image: 'https://raw.githubusercontent.com/Psoro77/My-Portfolio/refs/heads/gh-pages/assets/flowershop.png', link: 'https://github.com/Psoro77/Learning-Web-page-Basics/tree/main/projet3' },
+    { title: 'Mobile App', image: 'https://raw.githubusercontent.com/Psoro77/My-Portfolio/refs/heads/gh-pages/assets/mobileapp.png', link: 'https://github.com/Psoro77/' },
   ];
 
   return (
@@ -531,7 +531,7 @@ export default function Portfolio() {
 
       {/* Hero Section */}
       <section className="hero" id="about">
-        <img src="/assets/mypicture.png" alt="Boubacar Ba" className="profile-picture" />
+        <img src="https://raw.githubusercontent.com/Psoro77/My-Portfolio/refs/heads/gh-pages/assets/mypicture.png" alt="Hello its me" className="profile-picture" />
         <h1>Boubacar Ba</h1>
         <p className="subtitle">
           <span className="typing-text">Computer Science Student at Laurentian University</span>
@@ -539,7 +539,7 @@ export default function Portfolio() {
 
         <p className="hero-description">
           Welcome! I'm Boubacar, a Computer Science student passionate about software development,
-          artificial intelligence, and quantitative finance. This portfolio showcases my projects and technical skills.
+          artificial intelligence, and finance. This portfolio showcases my projects and technical skills.
         </p>
       </section>
 
