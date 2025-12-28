@@ -591,7 +591,7 @@ export default function Portfolio() {
 
         <div style={{ textAlign: 'center' }}>
           <a
-            href="https://drive.google.com/file/d/1Bhp9hp7uNEXU_Kt7xgYmVZFQxf59YXl6/view?usp=sharing"
+            href="https://drive.google.com/file/d/16F9kl2PtX_baC3vj6Mfsu-PL1deWAp4I/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="btn resume-btn"
