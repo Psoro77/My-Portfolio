@@ -545,7 +545,7 @@ export default function Portfolio() {
 
       {/* Skills Section */}
       <section className="skills-section" id="skills">
-        <h2>Technical Experience</h2>
+        <h2>Skills</h2>
         <div className="skills-grid">
           {skills.map((skill, index) => (
             <div
@@ -591,7 +591,7 @@ export default function Portfolio() {
 
         <div style={{ textAlign: 'center' }}>
           <a
-            href="https://drive.google.com/file/d/1tBGuxqMd9Sl7pLomdzLtQF-skYNEUBp1/view?usp=sharing"
+            href="https://drive.google.com/file/d/1XdhPado7RZ8m0obg9DfpGRO6ePZwCiam/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="btn resume-btn"
